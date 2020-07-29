@@ -1,7 +1,14 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+
+import Home from './pages/home'; 
 
 const App = () => {
-  return <h1>Hi</h1>;
+  return (
+    <BrowserRouter>
+      <Home />
+    </BrowserRouter>
+  );
 };
 
 export default App;
