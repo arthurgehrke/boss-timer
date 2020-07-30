@@ -1,9 +1,13 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Container = styled.div`
   display: flex;
-  position: relative;
+  position: absolute;
   bottom: 0;
-`;
 
-export { Container };
+  h1 {
+    color: #000;
+  }
+`
+
+export { Container }
