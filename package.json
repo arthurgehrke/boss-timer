@@ -5,6 +5,9 @@
   "repository": "https://github.com/arthurgehrke/boss-timer.git",
   "author": "arthurgehrke <arthurgehrke07@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev:server": "node packages/server/src/index.js"
+  },
   "private": true,
   "workspaces": {
     "packages": [
