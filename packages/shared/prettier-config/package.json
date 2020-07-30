@@ -1,0 +1,9 @@
+{
+  "name": "@boss-timer/prettier-config",
+  "version": "1.0.0",
+  "main": "prettier.config.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}

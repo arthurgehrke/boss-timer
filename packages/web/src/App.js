@@ -1,9 +1,9 @@
-import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
 
-import GlobalStyles from './styles/GlobalStyles';
+import GlobalStyles from "./styles/GlobalStyles";
 
-import Home from './pages/home'; 
+import Home from "./pages/home";
 
 const App = () => {
   return (

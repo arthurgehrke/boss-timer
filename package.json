@@ -11,7 +11,11 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "packages/*"
+      "packages/*",
+      "packages/shared/*"
     ]
+  },
+  "devDependencies": {
+    "@boss-timer/prettier-config": "*"
   }
 }
