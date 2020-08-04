@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import Header from '../../components/header'
 import Footer from '../../components/footer'
-import { Container } from '../../components/comtainer'
+import { Container } from '../../components/container'
 import { Form } from '../../components/button'
 
 const Home = () => {

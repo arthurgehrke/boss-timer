@@ -6,7 +6,8 @@
   "author": "arthurgehrke <arthurgehrke07@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev:server": "node packages/server/src/index.js"
+    "dev:server": "node packages/server/src/index.js",
+    "dev:web": "cd ./packages/web/src && yarn run start"
   },
   "private": true,
   "workspaces": {
@@ -16,6 +17,7 @@
     ]
   },
   "devDependencies": {
-    "@boss-timer/prettier-config": "*"
+    "@boss-timer/prettier-config": "*",
+    "react-scripts": "^3.4.1"
   }
 }
