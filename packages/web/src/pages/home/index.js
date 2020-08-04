@@ -4,6 +4,7 @@ import Header from '../../components/header'
 import Footer from '../../components/footer'
 import { Container } from '../../components/container'
 import { Form } from '../../components/button'
+import Table from '../../components/table'
 
 const Home = () => {
   const [state, setState] = useState({
@@ -20,6 +21,7 @@ const Home = () => {
             {state.isLoad ? <i className="fa fa-spinner fa-pulse" /> : 'BUSCAR'}
           </button>
         </Form>
+        <Table />
         <Footer />
       </Container>
     </>

@@ -1,18 +1,22 @@
-import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
 
-import GlobalStyles from "./styles/GlobalStyles";
+import GlobalStyles from './styles/GlobalStyles'
 
-import Home from "./pages/home";
+import TableContext from './hooks/TableContext'
+
+import Home from './pages/home'
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Home />
+    <TableContext>
+      <BrowserRouter>
+        <Home />
 
-      <GlobalStyles />
-    </BrowserRouter>
-  );
-};
+        <GlobalStyles />
+      </BrowserRouter>
+    </TableContext>
+  )
+}
 
-export default App;
+export default App
